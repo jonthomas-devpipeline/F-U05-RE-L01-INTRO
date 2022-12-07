@@ -5,8 +5,8 @@ export default class ComponentName extends Component {
         super();
 
         this.state = {
-            toggle: false
-          };  
+            count : 0
+          };   
         
         this.handleToggleClick = this.handleToggleClick.bind(this);
         }
